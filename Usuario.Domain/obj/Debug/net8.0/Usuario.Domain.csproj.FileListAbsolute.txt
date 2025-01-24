@@ -1,0 +1,11 @@
+C:\Users\fezer\source\repos\Usuario\Usuario.Domain\bin\Debug\net8.0\Usuario.Domain.deps.json
+C:\Users\fezer\source\repos\Usuario\Usuario.Domain\bin\Debug\net8.0\Usuario.Domain.dll
+C:\Users\fezer\source\repos\Usuario\Usuario.Domain\bin\Debug\net8.0\Usuario.Domain.pdb
+C:\Users\fezer\source\repos\Usuario\Usuario.Domain\obj\Debug\net8.0\Usuario.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fezer\source\repos\Usuario\Usuario.Domain\obj\Debug\net8.0\Usuario.Domain.AssemblyInfoInputs.cache
+C:\Users\fezer\source\repos\Usuario\Usuario.Domain\obj\Debug\net8.0\Usuario.Domain.AssemblyInfo.cs
+C:\Users\fezer\source\repos\Usuario\Usuario.Domain\obj\Debug\net8.0\Usuario.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fezer\source\repos\Usuario\Usuario.Domain\obj\Debug\net8.0\Usuario.Domain.dll
+C:\Users\fezer\source\repos\Usuario\Usuario.Domain\obj\Debug\net8.0\refint\Usuario.Domain.dll
+C:\Users\fezer\source\repos\Usuario\Usuario.Domain\obj\Debug\net8.0\Usuario.Domain.pdb
+C:\Users\fezer\source\repos\Usuario\Usuario.Domain\obj\Debug\net8.0\ref\Usuario.Domain.dll

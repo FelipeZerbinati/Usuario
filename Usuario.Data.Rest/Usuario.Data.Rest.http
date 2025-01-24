@@ -1,0 +1,6 @@
+@Usuario.Data.Rest_HostAddress = http://localhost:5218
+
+GET {{Usuario.Data.Rest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

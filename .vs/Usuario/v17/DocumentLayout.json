@@ -1,0 +1,300 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fezer\\source\\repos\\Usuario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8442C911-19CD-4DA9-A295-69A25454EDC6}|Usuario.Data.Postgres\\Usuario.Data.Postgres.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.data.postgres\\context\\usuariocontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8442C911-19CD-4DA9-A295-69A25454EDC6}|Usuario.Data.Postgres\\Usuario.Data.Postgres.csproj|solutionrelative:usuario.data.postgres\\context\\usuariocontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8442C911-19CD-4DA9-A295-69A25454EDC6}|Usuario.Data.Postgres\\Usuario.Data.Postgres.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.data.postgres\\context\\usuariocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8442C911-19CD-4DA9-A295-69A25454EDC6}|Usuario.Data.Postgres\\Usuario.Data.Postgres.csproj|solutionrelative:usuario.data.postgres\\context\\usuariocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8289DF05-0D03-491E-A67C-A0A49E6D9709}|Usuario.Api\\Usuario.Api.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8289DF05-0D03-491E-A67C-A0A49E6D9709}|Usuario.Api\\Usuario.Api.csproj|solutionrelative:usuario.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA9DC70-BD06-42D2-9ADB-0CDAAF1C5344}|Usuario.Application\\Usuario.Application.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.application\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA9DC70-BD06-42D2-9ADB-0CDAAF1C5344}|Usuario.Application\\Usuario.Application.csproj|solutionrelative:usuario.application\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA9DC70-BD06-42D2-9ADB-0CDAAF1C5344}|Usuario.Application\\Usuario.Application.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.application\\enderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA9DC70-BD06-42D2-9ADB-0CDAAF1C5344}|Usuario.Application\\Usuario.Application.csproj|solutionrelative:usuario.application\\enderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8442C911-19CD-4DA9-A295-69A25454EDC6}|Usuario.Data.Postgres\\Usuario.Data.Postgres.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.data.postgres\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8442C911-19CD-4DA9-A295-69A25454EDC6}|Usuario.Data.Postgres\\Usuario.Data.Postgres.csproj|solutionrelative:usuario.data.postgres\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}|Usuario.Domain\\Usuario.Domain.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.domain\\interfaces\\rest\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}|Usuario.Domain\\Usuario.Domain.csproj|solutionrelative:usuario.domain\\interfaces\\rest\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8289DF05-0D03-491E-A67C-A0A49E6D9709}|Usuario.Api\\Usuario.Api.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8289DF05-0D03-491E-A67C-A0A49E6D9709}|Usuario.Api\\Usuario.Api.csproj|solutionrelative:usuario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8289DF05-0D03-491E-A67C-A0A49E6D9709}|Usuario.Api\\Usuario.Api.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8289DF05-0D03-491E-A67C-A0A49E6D9709}|Usuario.Api\\Usuario.Api.csproj|solutionrelative:usuario.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8442C911-19CD-4DA9-A295-69A25454EDC6}|Usuario.Data.Postgres\\Usuario.Data.Postgres.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.data.postgres\\repository\\enderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8442C911-19CD-4DA9-A295-69A25454EDC6}|Usuario.Data.Postgres\\Usuario.Data.Postgres.csproj|solutionrelative:usuario.data.postgres\\repository\\enderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A5ADDF-1B6C-409A-BAF3-E70A21EAEEC4}|..\\..\\..\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Usuario.Data.Rest\\Usuario.Data.Rest.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\usuario.data.rest\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}|Usuario.Domain\\Usuario.Domain.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.domain\\interfaces\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}|Usuario.Domain\\Usuario.Domain.csproj|solutionrelative:usuario.domain\\interfaces\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8289DF05-0D03-491E-A67C-A0A49E6D9709}|Usuario.Api\\Usuario.Api.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.api\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8289DF05-0D03-491E-A67C-A0A49E6D9709}|Usuario.Api\\Usuario.Api.csproj|solutionrelative:usuario.api\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}|Usuario.Domain\\Usuario.Domain.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.domain\\interfaces\\service\\ienderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}|Usuario.Domain\\Usuario.Domain.csproj|solutionrelative:usuario.domain\\interfaces\\service\\ienderecoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}|Usuario.Domain\\Usuario.Domain.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.domain\\interfaces\\rest\\ienderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}|Usuario.Domain\\Usuario.Domain.csproj|solutionrelative:usuario.domain\\interfaces\\rest\\ienderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}|Usuario.Domain\\Usuario.Domain.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}|Usuario.Domain\\Usuario.Domain.csproj|solutionrelative:usuario.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}|Usuario.Domain\\Usuario.Domain.csproj|c:\\users\\fezer\\source\\repos\\usuario\\usuario.domain\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}|Usuario.Domain\\Usuario.Domain.csproj|solutionrelative:usuario.domain\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Usuario.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Models\\User.cs",
+              "RelativeToolTip": "Usuario.Domain\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T14:31:41.377Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Application\\UserService.cs",
+              "RelativeDocumentMoniker": "Usuario.Application\\UserService.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Application\\UserService.cs",
+              "RelativeToolTip": "Usuario.Application\\UserService.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAMwGIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T03:30:56.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Data.Postgres\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Usuario.Data.Postgres\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Data.Postgres\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Usuario.Data.Postgres\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAcwGAAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T17:46:04.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Interfaces\\Rest\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Usuario.Domain\\Interfaces\\Rest\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Interfaces\\Rest\\IUserRepository.cs",
+              "RelativeToolTip": "Usuario.Domain\\Interfaces\\Rest\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T03:52:37.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Usuario.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Api\\Program.cs",
+              "RelativeToolTip": "Usuario.Api\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABUAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T14:28:23.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Usuario.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Api\\appsettings.json",
+              "RelativeToolTip": "Usuario.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-24T13:30:28.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Data.Postgres\\Context\\UsuarioContextFactory.cs",
+              "RelativeDocumentMoniker": "Usuario.Data.Postgres\\Context\\UsuarioContextFactory.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Data.Postgres\\Context\\UsuarioContextFactory.cs",
+              "RelativeToolTip": "Usuario.Data.Postgres\\Context\\UsuarioContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:10:30.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioContext.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Data.Postgres\\Context\\UsuarioContext.cs",
+              "RelativeDocumentMoniker": "Usuario.Data.Postgres\\Context\\UsuarioContext.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Data.Postgres\\Context\\UsuarioContext.cs",
+              "RelativeToolTip": "Usuario.Data.Postgres\\Context\\UsuarioContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:49:59.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Usuario.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Usuario.Api\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAYwDUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T03:00:13.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnderecoService.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Application\\EnderecoService.cs",
+              "RelativeDocumentMoniker": "Usuario.Application\\EnderecoService.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Application\\EnderecoService.cs",
+              "RelativeToolTip": "Usuario.Application\\EnderecoService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAIAxwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T03:32:09.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnderecoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Data.Postgres\\Repository\\EnderecoRepository.cs",
+              "RelativeDocumentMoniker": "Usuario.Data.Postgres\\Repository\\EnderecoRepository.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Data.Postgres\\Repository\\EnderecoRepository.cs",
+              "RelativeToolTip": "Usuario.Data.Postgres\\Repository\\EnderecoRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T02:52:52.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Usuario.Data.Rest\\Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Usuario.Data.Rest\\Repository\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Usuario.Data.Rest\\Repository\\BaseRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Usuario.Data.Rest\\Repository\\BaseRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T16:52:48.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EnderecoController.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Api\\Controllers\\EnderecoController.cs",
+              "RelativeDocumentMoniker": "Usuario.Api\\Controllers\\EnderecoController.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Api\\Controllers\\EnderecoController.cs",
+              "RelativeToolTip": "Usuario.Api\\Controllers\\EnderecoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T03:19:50.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Interfaces\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "Usuario.Domain\\Interfaces\\Service\\IUserService.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Interfaces\\Service\\IUserService.cs",
+              "RelativeToolTip": "Usuario.Domain\\Interfaces\\Service\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T16:21:20.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEnderecoService.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Interfaces\\Service\\IEnderecoService.cs",
+              "RelativeDocumentMoniker": "Usuario.Domain\\Interfaces\\Service\\IEnderecoService.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Interfaces\\Service\\IEnderecoService.cs",
+              "RelativeToolTip": "Usuario.Domain\\Interfaces\\Service\\IEnderecoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T16:42:33.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEnderecoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Interfaces\\Rest\\IEnderecoRepository.cs",
+              "RelativeDocumentMoniker": "Usuario.Domain\\Interfaces\\Rest\\IEnderecoRepository.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Interfaces\\Rest\\IEnderecoRepository.cs",
+              "RelativeToolTip": "Usuario.Domain\\Interfaces\\Rest\\IEnderecoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T16:43:17.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Models\\Endereco.cs",
+              "RelativeDocumentMoniker": "Usuario.Domain\\Models\\Endereco.cs",
+              "ToolTip": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Models\\Endereco.cs",
+              "RelativeToolTip": "Usuario.Domain\\Models\\Endereco.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T14:34:07.601Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
