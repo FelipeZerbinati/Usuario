@@ -5,6 +5,8 @@ using Usuario.Data.Postgres.Repository;
 using Usuario.Data.Postgres.UserRepository;
 using Usuario.Domain.Interfaces.Rest;
 using Usuario.Domain.Interfaces.Service;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -17,3 +17,4 @@ C:\Users\fezer\source\repos\Usuario\Usuario.Application\bin\Debug\net8.0\Usuario
 C:\Users\fezer\source\repos\Usuario\Usuario.Application\bin\Debug\net8.0\Usuario.Data.Rest.pdb
 C:\Users\fezer\source\repos\Usuario\Usuario.Application\obj\Debug\net8.0\Usuario.Application.csproj.AssemblyReference.cache
 C:\Users\fezer\source\repos\Usuario\Usuario.Application\obj\Debug\net8.0\Usuario..017E4B3D.Up2Date
+C:\Users\fezer\source\repos\Usuario\Usuario.Application\obj\Debug\net8.0\Usuario.Application.sourcelink.json

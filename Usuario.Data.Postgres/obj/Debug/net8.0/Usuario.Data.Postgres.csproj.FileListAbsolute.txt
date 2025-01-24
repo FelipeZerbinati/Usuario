@@ -17,3 +17,4 @@ C:\Users\fezer\source\repos\Usuario\Usuario.Data.Postgres\obj\Debug\net8.0\refin
 C:\Users\fezer\source\repos\Usuario\Usuario.Data.Postgres\obj\Debug\net8.0\Usuario.Data.Postgres.pdb
 C:\Users\fezer\source\repos\Usuario\Usuario.Data.Postgres\obj\Debug\net8.0\Usuario.Data.Postgres.genruntimeconfig.cache
 C:\Users\fezer\source\repos\Usuario\Usuario.Data.Postgres\obj\Debug\net8.0\ref\Usuario.Data.Postgres.dll
+C:\Users\fezer\source\repos\Usuario\Usuario.Data.Postgres\obj\Debug\net8.0\Usuario.Data.Postgres.sourcelink.json

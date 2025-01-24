@@ -17,16 +17,22 @@ namespace Usuario.Data.Postgres.Context
             {
                 var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Development";
                 var configuration = new ConfigurationBuilder()
-                    .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../Usuario.Api"))
+                    .SetBasePath(AppContext.BaseDirectory) // Use o diretório base do projeto
                     .AddJsonFile("appsettings.json")
                     .AddJsonFile($"appsettings.{environment}.json", optional: true)
                     .Build();
 
-                var connectionString = configuration.GetConnectionString("DataBaseUsuario");
+                var connectionString = configuration.GetConnectionString("DefaultConnection");
+
+                if (string.IsNullOrEmpty(connectionString))
+                {
+                    throw new InvalidOperationException("A conexão com o banco de dados não foi configurada corretamente.");
+                }
 
                 optionsBuilder.UseNpgsql(connectionString);
             }
         }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>(entity =>
