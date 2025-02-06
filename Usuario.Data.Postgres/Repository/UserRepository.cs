@@ -1,11 +1,10 @@
-﻿using Usuario.Domain.Interfaces.Rest;
-using Usuario.Domain.DTO;
+﻿using Usuario.Domain.DTO;
 using Usuario.Domain.Models;
 using RestSharp;
 using Usuario.Data.Rest.Repository;
 using Usuario.Data.Postgres.Context;
 using Microsoft.EntityFrameworkCore;
-using Usuario.Domain.Interfaces.Rest;
+using Usuario.Domain.Interfaces.Data;
 
 namespace Usuario.Data.Postgres.UserRepository
 {

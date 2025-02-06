@@ -10,6 +10,11 @@ namespace Usuario.Domain.Interfaces.Service
 {
     public interface IEnderecoService
     {
+        
+        Task<ResultData<bool>> AddEndereco(Endereco endereco);
+        Task<ResultData<Endereco>> GetEnderecoById(int id);
         Task<ResultData<Endereco>> GetEnderecoByCep(string cep);
+        Task<ResultData<bool>> UpdateEndereco(int id, Endereco updatedEndereco);
+        Task<ResultData<bool>> DeleteEndereco(int enderecoId);
     }
 }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Usuario.Domain.Models
+﻿namespace Usuario.Domain.Models
 {
     public class User
     {
@@ -14,6 +8,6 @@ namespace Usuario.Domain.Models
         public DateTime DataNascimento { get; set; }
         public string Genero { get; set; }
         public string Email { get; set; }
-        public Endereco Endereco { get; set; }
+        public EnderecoUsuario EnderecoUsuario { get; set; }
     }
 }

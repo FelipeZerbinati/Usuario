@@ -8,7 +8,7 @@ using Usuario.Domain.Models;
 
 namespace Usuario.Domain.Interfaces.Rest
 {
-    public interface IEnderecoRepository
+    public interface IEnderecoRestRepository
     {
         Task<Endereco> GetEnderecoByCep(string cep);
     }

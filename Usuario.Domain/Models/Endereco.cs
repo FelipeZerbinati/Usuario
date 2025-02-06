@@ -43,5 +43,8 @@ namespace Usuario.Domain.Models
 
         [JsonPropertyName("siafi")]
         public string Siafi { get; set; }
+
+
+        public EnderecoUsuario EnderecoUsuario { get; set; }
     }
 }

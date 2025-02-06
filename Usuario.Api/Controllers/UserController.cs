@@ -15,10 +15,10 @@ namespace Usuario.Api.Controllers
             _userService = userService;
         }
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUserByUserId(int id)
+        [HttpGet("{idUser}")]
+        public async Task<ActionResult<User>> GetUserByUserId(int idUser)
         {
-            var result = await _userService.GetUserByUserId(id);
+            var result = await _userService.GetUserByUserId(idUser);
             if (!result.Success)
             {
                 return NotFound();
@@ -38,17 +38,17 @@ namespace Usuario.Api.Controllers
             {
                 return BadRequest(result.ErrorDescription);
             }
-            return CreatedAtAction(nameof(GetUserByUserId), new { id = newUser.Id }, newUser);
+            return CreatedAtAction(nameof(AddUser), new { id = newUser.Id }, newUser);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateUser(int id, [FromBody] User updatedUser)
+        [HttpPut("{idUser}")]
+        public async Task<IActionResult> UpdateUser(int idUser, [FromBody] User updatedUser)
         {
-            if (id != updatedUser.Id)
+            if (idUser != updatedUser.Id)
             {
                 return BadRequest("User Id incompativel");
             }
-                var result = await _userService.UpdateUser(id, updatedUser);
+                var result = await _userService.UpdateUser(idUser, updatedUser);
             if (!result.Success)
             {
                 return NotFound(result.ErrorDescription);
@@ -57,10 +57,10 @@ namespace Usuario.Api.Controllers
             
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(int id)
+        [HttpDelete("{idUser}")]
+        public async Task<IActionResult> DeleteUser(int idUSer)
         {
-            var result = await _userService.DeleteUser(id);
+            var result = await _userService.DeleteUser(idUSer);
             if (!result.Success)
             {
                 return NotFound(result.ErrorDescription);

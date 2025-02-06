@@ -1,5 +1,5 @@
 ﻿using Usuario.Domain.DTO;
-using Usuario.Domain.Interfaces.Rest;
+using Usuario.Domain.Interfaces.Data;
 using Usuario.Domain.Interfaces.Service;
 using Usuario.Domain.Models;
 

@@ -8,6 +8,8 @@ namespace Usuario.Data.Postgres.Context
     public class UsuarioContext : DbContext
     {
         public DbSet<User> User { get; set; }
+
+        public DbSet<Endereco> Endereco { get; set; }
         public UsuarioContext(DbContextOptions<UsuarioContext> options) : base(options) { }
         private string connectionString = "Host=localhost;Port=5432;Username=postgres;Password=@Postgre03;Database=Usuario";
 
@@ -40,6 +42,11 @@ namespace Usuario.Data.Postgres.Context
                 entity.Property(e => e.DataNascimento)
                       .HasColumnType("timestamp with time zone")
                       .IsRequired();
+            });
+
+            modelBuilder.Entity<Endereco>(entity =>
+            {
+             
             });
         }
 

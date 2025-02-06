@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usuario.Application", "Usua
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usuario.Domain", "Usuario.Domain\Usuario.Domain.csproj", "{9BBC027C-3AAC-4A7A-92DF-CA122B23D017}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usuario.Data.Rest", "..\..\..\OneDrive\Ambiente de Trabalho\Linguagem C\Usuario.Data.Rest\Usuario.Data.Rest.csproj", "{36A5ADDF-1B6C-409A-BAF3-E70A21EAEEC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usuario.Data.Rest", "..\..\..\OneDrive\Ambiente de Trabalho\Linguagem C\Usuario.Data.Rest\Usuario.Data.Rest.csproj", "{36A5ADDF-1B6C-409A-BAF3-E70A21EAEEC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usuario.Data.Postgres", "Usuario.Data.Postgres\Usuario.Data.Postgres.csproj", "{8442C911-19CD-4DA9-A295-69A25454EDC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usuario.Data.Postgres", "Usuario.Data.Postgres\Usuario.Data.Postgres.csproj", "{8442C911-19CD-4DA9-A295-69A25454EDC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
