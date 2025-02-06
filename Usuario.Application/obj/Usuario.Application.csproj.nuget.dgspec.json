@@ -32,7 +32,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Usuario.Domain.csproj": {
+                "projectPath": "C:\\Users\\fezer\\source\\repos\\Usuario\\Usuario.Domain\\Usuario.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

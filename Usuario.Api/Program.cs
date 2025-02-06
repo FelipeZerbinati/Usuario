@@ -1,11 +1,11 @@
 using Microsoft.EntityFrameworkCore;
-using Usuario.Application;
 using Usuario.Data.Postgres.Context;
 using Usuario.Data.Postgres.Repository;
 using Usuario.Data.Postgres.UserRepository;
 using Usuario.Domain.Interfaces.Rest;
 using Usuario.Domain.Interfaces.Service;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
+using Usuario.Application.Services;
 
 
 var builder = WebApplication.CreateBuilder(args);

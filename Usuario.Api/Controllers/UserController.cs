@@ -1,7 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Usuario.Data.Postgres.Context;
-using Usuario.Domain.DTO;
+using Usuario.Domain.Interfaces.Service;
 using Usuario.Domain.Models;
 
 namespace Usuario.Api.Controllers
@@ -10,29 +8,22 @@ namespace Usuario.Api.Controllers
     [Route("api/[controller]")]
     public class UsuariosController : ControllerBase
     {
-        private readonly UsuarioContext _context;
-        private static List<User> _usuarios = new List<User>();
+        private readonly IUserService _userService;
 
-        public UsuariosController(UsuarioContext context)
+        public UsuariosController(IUserService userService)
         {
-            _context = context;
-        }
-
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUsuarios()
-        {
-            return await _context.User.ToListAsync();
+            _userService = userService;
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUserByUserId(int id)
         {
-            var usuario = await _context.User.FindAsync(id);
-            if (usuario == null)
+            var result = await _userService.GetUserByUserId(id);
+            if (!result.Success)
             {
                 return NotFound();
             }
-            return usuario;
+            return Ok(result.Data);
         }
 
         [HttpPost]
@@ -40,11 +31,14 @@ namespace Usuario.Api.Controllers
         {
             if (newUser == null)
             {
-                return BadRequest();
+                return BadRequest("User data não pode ser nulo.");
             }
-            _context.User.Add(newUser);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetUsuarios), new { id = newUser.Id }, newUser);
+            var result = await _userService.AddUser(newUser);
+            if (!result.Success) 
+            {
+                return BadRequest(result.ErrorDescription);
+            }
+            return CreatedAtAction(nameof(GetUserByUserId), new { id = newUser.Id }, newUser);
         }
 
         [HttpPut("{id}")]
@@ -52,47 +46,26 @@ namespace Usuario.Api.Controllers
         {
             if (id != updatedUser.Id)
             {
-                return BadRequest();
+                return BadRequest("User Id incompativel");
             }
-            if (updatedUser.DataNascimento.Kind == DateTimeKind.Unspecified)
+                var result = await _userService.UpdateUser(id, updatedUser);
+            if (!result.Success)
             {
-                updatedUser.DataNascimento = DateTime.SpecifyKind(updatedUser.DataNascimento, DateTimeKind.Utc);
-            }
-            try
-            {
-                _context.Entry(updatedUser).State = EntityState.Modified;
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!UsuarioExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return NotFound(result.ErrorDescription);
             }
             return NoContent();
+            
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
-            var usuario = await _context.User.FindAsync(id);
-            if (usuario == null)
+            var result = await _userService.DeleteUser(id);
+            if (!result.Success)
             {
-                return NotFound();
+                return NotFound(result.ErrorDescription);
             }
-            _context.User.Remove(usuario);
-            await _context.SaveChangesAsync();
             return NoContent();
-        }
-
-        private bool UsuarioExists(int id)
-        {
-            return _context.User.Any(e => e.Id.Equals(id));
         }
     }
 

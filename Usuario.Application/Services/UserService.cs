@@ -3,9 +3,9 @@ using Usuario.Domain.Interfaces.Rest;
 using Usuario.Domain.Interfaces.Service;
 using Usuario.Domain.Models;
 
-namespace Usuario.Application
+namespace Usuario.Application.Services
 {
-    
+
 
     public class UserService : IUserService
     {

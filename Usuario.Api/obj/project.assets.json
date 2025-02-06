@@ -1740,7 +1740,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "RestSharp": "112.1.0"
+          "RestSharp": "112.1.0",
+          "Usuario.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Usuario.Data.Rest.dll": {}

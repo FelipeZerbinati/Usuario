@@ -1085,7 +1085,8 @@
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "Usuario.Data.Rest/1.0.0": {
         "dependencies": {
-          "RestSharp": "112.1.0"
+          "RestSharp": "112.1.0",
+          "Usuario.Domain": "1.0.0"
         },
         "runtime": {
           "Usuario.Data.Rest.dll": {}
